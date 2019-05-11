@@ -37,6 +37,14 @@ int FindLast (int *array, int array_len, int target)
 ```
 <!--TODO: add versions in different, higher level & functional languages -->
 
->further explanation of performance characteristics, etc.
+### Performance characteristics ov the incantation
+Suppose the list to be searched contains `n` items. In the worst case, the time cost ov this spell is `O(n)`.
 
->praise to the Omnissiah
+There exist many other search spells with faster theoretical worst case time costs, yet all depend on the list being sorted or otherwise preprocessed in some fashion. If the list to be searched is ov manageable size, an incantation ov linear search may be swiftest in practice. Likewise, if it be impractical to alter or copy the list to be searched, superior options may be rendered unavailable.
+
+<!--TODO: add more complete performance math, then get into cycle-saving micro optimizations with perf tests & everything-->
+
+
+***
+
+Remember as always to appropriately thank the machine spirit which serves thy designs in executing the spells which thou incant
